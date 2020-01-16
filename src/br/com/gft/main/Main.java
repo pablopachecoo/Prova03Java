@@ -32,6 +32,14 @@ public class Main {
 		}
 		System.out.println("---------------------------------------------------" + "\n");
 		System.out.println(pessoas.size() + " Pessoas na lista");
+		
+		for (int i = 0; i < pessoas.size(); i++) {
+			if (pessoas.get(i).getNome() == "Jessica") {
+				System.out.println("Jessica existe na lista, e sua idade é de: " + pessoas.get(i).getIdade() + " Anos");
+				System.out.println("==================================================");
+				
+			}
+		}
 	}
 
 }
